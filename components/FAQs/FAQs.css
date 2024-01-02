@@ -1,0 +1,85 @@
+.app__FAQs{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    background: var(--BG-Gradient-2, linear-gradient(91deg, rgba(18, 196, 196, 0.18) 4.87%, rgba(187, 55, 233, 0.18) 106.94%));
+}
+
+.app__FAQs .app__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+.app__FAQs_business__content{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.app__FAQs_business_content_text{
+    width: 100%;
+    max-width: 470px;
+    
+    padding: 8px 20px;
+    border-radius: 13px;
+    background: var(--Black, #222);
+    margin-bottom: 12px;
+}
+
+.app__FAQs_business_content_text p{
+    font-family: var(--font-poppins);
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+
+    background: var(--Gradient, linear-gradient(91deg, #1259C4 4.87%, #BB37E9 106.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.app__FAQs_main_content{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.app__FAQs_main_content_info{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.app__FAQs_main_content_info h1{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .app__FAQs .app__container{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 50px;
+    }
+
+    .app__FAQs_business_content_text{
+        max-width: 100%;
+    }
+
+    .app__FAQs_main_content{
+        order: -1;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .app__FAQs_business_content_text p{
+        font-size: 16px;
+    }
+}

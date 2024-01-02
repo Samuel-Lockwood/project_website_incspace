@@ -1,0 +1,120 @@
+.app__testimonial{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.app__testimonial_heading_content{
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 20px;
+}
+
+.app__testimonial_heading{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.app__testimonial_heading_text{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.app__testimonial_heading_text p{
+    color: #181945;
+}
+
+.app__testimonial_cards{
+    width: 100%;
+
+    margin-top: 80px;
+}
+
+.app__testimonial_card{
+    position: relative;
+    padding: 10px 20px;
+}
+
+.app__testimonial_card::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px; 
+    border: 1px solid transparent;
+    background: linear-gradient(to right, #1259C4, #BB37E9) border-box;
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+}
+
+.app__testimonial_card_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: -60px;
+}
+
+.app__testimonial_card_img .people-img{
+    border-radius: 50%;
+}
+
+.app__testimonial_card_personal_info{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app__testimonial_card_name h3{
+    color: #181945;
+
+    text-align: center;
+    font-family: var(--font-quick);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.36px;
+    margin-bottom: 10px;
+
+    position: relative;
+}
+
+.app__testimonial_card_text p{
+    color: #181945;
+    
+    text-align: center;
+    margin-bottom: 15px;
+
+    position: relative;
+}
+
+.app__testimonial_card_stars{
+    margin-bottom: 15px;
+}
+
+
+@media screen and (max-width: 1024px){
+    .app__testimonial_heading_content{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}

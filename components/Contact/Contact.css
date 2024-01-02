@@ -1,0 +1,50 @@
+.app__contact{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    background: var(--BG-Gradient-2, linear-gradient(91deg, rgba(18, 196, 196, 0.18) 4.87%, rgba(187, 55, 233, 0.18) 106.94%));
+}
+
+.app__contact_text{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__contact_text span{
+    margin-right: 30px;
+}
+
+.app__contact_text h1{
+    color: #000;
+    text-align: center;
+
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.app__contact_email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 10px;
+}
+
+.app__contact_email p{
+    color: #000;
+
+    font-family: var(--font-plus);
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: -1.6px;
+    text-decoration-line: underline;
+}

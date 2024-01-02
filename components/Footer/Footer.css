@@ -1,0 +1,141 @@
+.app__footer{
+    width: 100%;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 100px 0 0 0;
+}
+
+.app__footer .app__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: initial;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.app__footer_logo{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.app__footer_logo h1{
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+}
+
+.app__footer_logo p{
+    width: 294px;
+    color: #1D2058;
+    line-height: normal;
+}
+
+.app__footer_links_content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.app__footer_links{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    color: var(--base-dark-blue, #1D2058);
+
+    font-family: var(--font-poppins);
+    font-size: 18px;
+
+    font-weight: 700;
+}
+
+.app__footerColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.app__footer_contact_content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.app__footer_contact-links{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-bottom: 13px;
+}
+
+.app__footer_contact-links p{
+    color:#1D2058;
+
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+}
+
+.app__footerColumn h4{
+    color: #1D2058;
+
+    font-size: 19px;
+    font-weight: 800;
+    letter-spacing: 0.24px;
+    margin-bottom: 15px;
+}
+
+.app__footer_social_media_content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.app__footer_social_links{
+    display: flex;
+    flex-direction: column;
+    gap: 12px ;
+}
+
+.app__footer_social_links p{
+    color:  #1D2058;
+
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.app__footer_copyright{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    margin-top: 40px;
+    background: var(--1, linear-gradient(91deg, #12C4C4 4.87%, #BB37E9 106.94%));
+}
+
+.app__footer_copyright p{
+    color: #FFF;
+
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+
+    text-align: center;
+}
+
+@media screen and (max-width: 820px){
+    .app__footer .app__container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}
+

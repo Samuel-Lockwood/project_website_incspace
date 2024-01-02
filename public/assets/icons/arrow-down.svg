@@ -1,0 +1,23 @@
+<svg width="94" height="76" viewBox="0 0 94 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Arrow - Down" clip-path="url(#clip0_1_215)">
+<g id="Iconly/Light/Arrow---Down">
+<g id="Arrow---Down">
+<path id="Stroke-1" d="M76.9272 37.3456H18.5137" stroke="url(#paint0_linear_1_215)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Stroke-3" d="M53.3679 18.5194L76.928 37.3444L53.3679 56.1725" stroke="url(#paint1_linear_1_215)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_215" x1="47.7205" y1="37.3018" x2="47.7207" y2="36.27" gradientUnits="userSpaceOnUse">
+<stop stop-color="#12C4C4"/>
+<stop offset="1" stop-color="#BB37E9"/>
+</linearGradient>
+<linearGradient id="paint1_linear_1_215" x1="65.1479" y1="54.5211" x2="65.8203" y2="15.6847" gradientUnits="userSpaceOnUse">
+<stop stop-color="#12C4C4"/>
+<stop offset="1" stop-color="#BB37E9"/>
+</linearGradient>
+<clipPath id="clip0_1_215">
+<rect width="75" height="93.4615" fill="white" transform="matrix(0 -1 1 0 0.0161133 75.7028)"/>
+</clipPath>
+</defs>
+</svg>
